@@ -1,6 +1,6 @@
 {
   "name": "animationsequence",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "CSS Animation Sequence module",
   "main": "lib/index.js",
   "types": "lib",
@@ -12,7 +12,13 @@
   "repository": {
     "type": "git"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "animation",
+    "lnardon",
+    "animationsequence",
+    "sequence"
+  ],
   "author": "github.com/lnardon",
   "license": "MIT",
   "devDependencies": {
