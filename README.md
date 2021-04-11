@@ -15,7 +15,7 @@ npm install animationsequence
 ```ts
 import setSequence from "animationsequence";
 
-setSequence(classNameToTrack : string, keyframesName : string, delay : number)
+setSequence(classNameToTrack : string, keyframesName : string, duration: number, delay : number)
 ```
 
 ## Example
@@ -23,5 +23,5 @@ setSequence(classNameToTrack : string, keyframesName : string, delay : number)
 ```js
 import setSequence from "animationsequence";
 
-setSequence("userCard", "slideUp", 0.2);
+setSequence("userCard", "slideUp", 1000, 500);
 ```
